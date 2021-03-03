@@ -1,7 +1,7 @@
 # AdderNet-FPGA
 1. AdderNet: https://github.com/huawei-noah/AdderNet
-2. This project shows how many logic resources that AdderNet can save compared to a CNN.
-3. We provide the demonstration of 8-bit convolution network with 256 parallelism (parallelism of the input channel and the output channel are both 16). 
+2. This project shows a demonstration on how many logic resources that AdderNet can save compared to a CNN.
+3. We provide the implementation of 8-bit convolution network with 256 parallelism (parallelism of the input channel and the output channel are both 16). 
 4. The macro definition of "AdderNet" in "conv_defines.vh" is to define the network to be Adder-conv or Multilpier-conv.
 
 
